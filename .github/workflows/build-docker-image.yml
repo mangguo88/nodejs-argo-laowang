@@ -2,7 +2,7 @@ name: Build and Push Docker Image
 
 on:
   push:
-分支: [ main ]
+    分支: [ main ]
     paths:
       - 'Dockerfile'
       - 'index.js'
